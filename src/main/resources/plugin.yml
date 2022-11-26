@@ -1,0 +1,16 @@
+name: ClaimPlugin
+version: '${project.version}'
+main: de.fadro04.claimplugin.ClaimPlugin
+api-version: 1.19
+authors: [ Fadro04 ]
+description: Claim Plugin for Cirellium server
+
+commands:
+  claim:
+    descrption: Dieser Befehl claimt den Chunk, in dem du stehst. Sodas nur du dort abbauen und Blöcke platzieren kannst.
+
+  unclaim:
+    description: Dieser Befehl unclaimt den Chunk in dem du gerade stehst. Sodas andere dort wieder abbauen und Blöcke platzieren können.
+
+  unclaimall:
+    description: Dieser Befehl unclaimt alle deine geclaimten Chunks.
