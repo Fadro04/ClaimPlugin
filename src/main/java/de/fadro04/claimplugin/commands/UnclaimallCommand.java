@@ -19,7 +19,7 @@ public class UnclaimallCommand implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
         if (!(sender instanceof Player)) {
-            ClaimPlugin.INSTANCE.log("Du bist kefdgsrgdfgdfgdfgdin Spieler.");
+            ClaimPlugin.INSTANCE.log("Du bist kein Spieler.");
             return true;
         }
         Player player = (Player) sender;
